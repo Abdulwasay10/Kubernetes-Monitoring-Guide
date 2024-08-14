@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/a1bbefaa-698a-43a7-b74b-1a6694d110f2)# Kubernetes Monitoring with Prometheus and Grafana
+# Kubernetes Monitoring with Prometheus and Grafana
 
 Monitoring Kubernetes clusters is essential for maintaining visibility into your infrastructure and quickly identifying issues. This guide will walk you through setting up a monitoring platform using **Prometheus** and **Grafana** on a Kubernetes cluster.
 
@@ -104,7 +104,8 @@ The default username is `admin`. Use the retrieved password to log in.
 
    If successful, a green popup will indicate the connection.
 
-![image](https://github.com/user-attachments/assets/083715b8-7432-430d-9ce3-bf14ac60377a)
+![image](https://github.com/user-attachments/assets/3226ed1b-80d4-4a71-8418-91a98f4c75b0)
+
 
 
 2. **Importing a Kubernetes Dashboard**:
@@ -114,9 +115,8 @@ The default username is `admin`. Use the retrieved password to log in.
    - Click **Import** to view the dashboard.
 
 This dashboard provides insights into your Kubernetes cluster using predefined Prometheus queries.
-![image](https://github.com/user-attachments/assets/59616ee1-6682-4305-8fca-00dbe343b277)
-![image](https://github.com/user-attachments/assets/1312f25c-88ff-4a8a-9b30-6c9e23dcff56)
 
+![image](https://github.com/user-attachments/assets/4b3b3355-c45c-4e18-b40b-0596a5cf1f25)
 
 
 ## Conclusion
