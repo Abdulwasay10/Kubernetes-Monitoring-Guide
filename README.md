@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/acfa5d88-094a-4958-b67a-485ba3705305)![image](https://github.com/user-attachments/assets/75c0b5f6-c899-4700-b586-b264efcf762e)Kubernetes Monitoring with Prometheus and Grafana
+Kubernetes Monitoring with Prometheus and Grafana
 Monitoring Kubernetes clusters is essential for maintaining visibility into your infrastructure and quickly identifying issues. This guide will walk you through setting up a monitoring platform using Prometheus and Grafana on a Kubernetes cluster.
 
 Introduction
@@ -40,7 +40,9 @@ bash
 Copy code
 minikube ip
 # Use this IP with the exposed NodePort to access Prometheus
+
 ![image](https://github.com/user-attachments/assets/5b5271ad-3fe9-44a3-af22-046f931a537f)
+
 Installing Grafana Using Helm
 Add Helm Repository:
 
@@ -64,6 +66,7 @@ bash
 Copy code
 kubectl expose service grafana --type=NodePort --target-port=3000 --name=grafana-ext
 Retrieve the Minikube IP and access Grafana using the appropriate port.
+
 ![image](https://github.com/user-attachments/assets/5b5271ad-3fe9-44a3-af22-046f931a537f)
 
 Logging into Grafana
