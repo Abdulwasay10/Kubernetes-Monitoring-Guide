@@ -1,3 +1,4 @@
+
 # Kubernetes Monitoring with Prometheus and Grafana
 
 Monitoring Kubernetes clusters is essential for maintaining visibility into your infrastructure and quickly identifying issues. This guide will walk you through setting up a monitoring platform using **Prometheus** and **Grafana** on a Kubernetes cluster.
@@ -48,9 +49,8 @@ You can now access Prometheus using your Minikube IP and the NodePort:
 minikube ip
 # Use this IP with the exposed NodePort to access Prometheus
 ```
-![image](https://github.com/user-attachments/assets/ce6b4f53-4de6-4503-89fe-d42c17f89a7b)
 
-```
+![image](https://github.com/user-attachments/assets/ce6b4f53-4de6-4503-89fe-d42c17f89a7b)
 
 ### Installing Grafana Using Helm
 
@@ -91,9 +91,6 @@ The default username is `admin`. Use the retrieved password to log in.
 
 ![image](https://github.com/user-attachments/assets/568194ed-b538-42ee-a669-474e1e4af923)
 
-```
-
-
 ## Connecting Grafana to Prometheus
 
 1. **Add Prometheus as a Data Source**:
@@ -106,8 +103,6 @@ The default username is `admin`. Use the retrieved password to log in.
 
 ![image](https://github.com/user-attachments/assets/3226ed1b-80d4-4a71-8418-91a98f4c75b0)
 
-
-
 2. **Importing a Kubernetes Dashboard**:
    - Click on **Dashboard** > **Import Dashboard**.
    - Enter the ID `3662` for the Kubernetes cluster dashboard.
@@ -119,8 +114,5 @@ This dashboard provides insights into your Kubernetes cluster using predefined P
 ![image](https://github.com/user-attachments/assets/4b3b3355-c45c-4e18-b40b-0596a5cf1f25)
 
 
-## Conclusion
-
 By following these steps, you’ve set up a powerful monitoring stack using Prometheus and Grafana. This setup will give you deep visibility into your Kubernetes clusters and help you quickly identify and resolve issues.
 
---- 
